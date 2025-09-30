@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Assignment</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,12 +26,12 @@
   </head>
   <body>
     <!-- Frequenty Asked Question Section  -->
-    <div>
+    <div class="pt-6">
       <div class="heading text-center mt-5">
-        <h1 class="text-5xl font-bold">Frequently asked questions</h1>
+        <h1 class="text-5xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-5xl font-bold">Frequently asked questions</h1>
       </div>
 
-      <div class="accordion flex justify-center align-items-left mt-5">
+      <div class="accordion flex justify-center align-items-left mt-5 pt-5">
         <div class="join join-vertical bg-base-100">
           <div
             class="collapse collapse-arrow join-item border-b border-slate-400"
@@ -83,5 +85,36 @@
         </div>
       </div>
     </div>
+
+
+    <!-- get in touch section  -->
+    <div class="bg-blue-600 text-white rounded-2xl mx-4 md:mx-20 my-10 p-10 text-center">
+  <h2 class="text-2xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+  <p class="max-w-2xl mx-auto text-base md:text-lg leading-relaxed mb-6">
+    Contact us now to enquire our plumbing services, whether you have a commercial
+    project that requires support, or a domestic plumbing task that needs the attention
+    of a trusted professional.
+  </p>
+  <a
+    href="#"
+    class="inline-flex items-center px-6 py-3 bg-white text-blue-600 font-semibold rounded-md shadow hover:bg-gray-100 transition"
+  >
+    Book a Professional Plumber
+    <svg
+      class="ml-2 w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </a>
+</div>
+
   </body>
 </html>
